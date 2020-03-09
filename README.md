@@ -51,7 +51,7 @@ This repository provides OpenCore configuration files for Lenovo-G50-80.
    - 参阅：[使用OpenCore引导黑苹果](https://blog.xjn819.com/?p=543)
 
 -  ACIP hotpatch 修补
-   - 参阅：[OC-little By 宪武](https://github.com/chiccheung/HP-Zhan66-Pro14-G2-macOS/tree/master/Docs/OC-%E9%83%A8%E4%BB%B6%E8%A1%A5%E4%B8%81/OC-little)
+   - 参阅：[OC-little By 宪武](https://github.com/daliansky/OC-little)
 
 ## 许可证声明
 
