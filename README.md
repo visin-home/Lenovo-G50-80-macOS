@@ -51,7 +51,16 @@ This repository provides OpenCore configuration files for Lenovo-G50-80.
    - 参阅：[使用OpenCore引导黑苹果](https://blog.xjn819.com/?p=543)
 
 -  ACIP hotpatch 修补
-   - 参阅：[OC-little By 宪武](https://github.com/daliansky/OC-little)
+   - 参阅：[OC-little](https://github.com/daliansky/OC-little)
+   - 参阅：[电池 hotpatch](https://github.com/chiccheung/Lenovo-G50-80-macOS/blob/master/Files/SSDT-OCBAT0-LenovoG50-80.dsl)
+
+-  Clover
+   - 参阅：[Clover-EFI](https://github.com/chiccheung/Lenovo-G50-80-macOS/blob/master/Files/Clover-EFI.zip)
+   - 说明：Clover引导文件没有进行深入测试，亮度快捷键为 F11/F12
+
+-  键盘触摸板
+   - 驱动：[SmartTouchpad](https://github.com/chiccheung/Lenovo-G50-80-macOS/blob/master/Files/SmartTouchpad%20v4.7%20beta%205.zip)
+   - 说明：VoodooPS2 无法使触摸板正常工作，详情 [issues#557](https://github.com/acidanthera/bugtracker/issues/557)
 
 ## 许可证声明
 
