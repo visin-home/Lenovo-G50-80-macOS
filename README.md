@@ -24,21 +24,22 @@ This repository provides OpenCore configuration files for Lenovo-G50-80.
 
 ## 详情
 
-<b>系统版本：macOS Catalina 10.15.3 (19D76)｜ Open Core 版本：0.5.7</b>
+<b>系统版本：macOS Catalina 10.15.3 (19D76)｜ OpenCore 版本：0.5.7</b>
 
 <b>正常工作项说明</b>
 
-- 使用 acidanthera 推荐的轻量级编辑器[ProperTree](https://github.com/corpnewt/ProperTree)修改 config.plist 文件
-- Qualcomm Atheros AR956x 在 macOS Catalina 下工作状况不理想，使用 COMFAST USB无线网卡
+- 使用 acidanthera 推荐的轻量级编辑器 [ProperTree](https://github.com/corpnewt/ProperTree) 修改 config.plist 文件
+- Qualcomm Atheros AR956x 在 macOS Catalina 下工作状况不理想，使用 COMFAST USB 无线网卡
   - 参阅：[Wireless-USB-Adapter-Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover) 
 
 <b>不正常工作项说明</b>
 
 - 独立显卡
   - 已注入设备属性 `disable-external-gpu` 禁用此设备，减少电量消耗
-- 读卡器
-- Qualcomm Atheros AR956x 无线网卡 & 蓝牙
-- SystemSerialNumber & MLB 请在 config.plst 相关条目下自行添加，以正常使用 App Store
+- Qualcomm Atheros AR956x 无线网卡
+- 蓝牙设备
+- SD 读卡器
+- SystemSerialNumber 等信息请在 config.plst 相关条目下自行添加，以正常使用 App Store等服务
   - 参阅：[使用OpenCore引导黑苹果](https://blog.xjn819.com/?p=543)
   - 工具：[macinfo](https://github.com/acidanthera/MacInfoPkg/releases)
   - 命令：`./macserial -m MacBookPro12,1`
