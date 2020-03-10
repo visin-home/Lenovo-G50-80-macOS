@@ -28,8 +28,7 @@ This repository provides OpenCore configuration files for Lenovo-G50-80.
 
 <b>正常工作项说明</b>
 
-- <b>亮度调节按键 Fn+Shift+F2 | Fn+Shift+F3</b>
-- 可使用OpenCore官方推荐的轻量级编辑器[ProperTree](https://github.com/corpnewt/ProperTree)修改config.plist文件
+- 使用 acidanthera 推荐的轻量级编辑器[ProperTree](https://github.com/corpnewt/ProperTree)修改 config.plist 文件
 - Qualcomm Atheros AR956x 在 macOS Catalina 下工作状况不理想，使用 COMFAST USB无线网卡
   - 参阅：[Wireless-USB-Adapter-Clover](https://github.com/chris1111/Wireless-USB-Adapter-Clover) 
 
@@ -56,11 +55,11 @@ This repository provides OpenCore configuration files for Lenovo-G50-80.
 
 -  Clover
    - 参阅：[Clover-EFI](https://github.com/chiccheung/Lenovo-G50-80-macOS/blob/master/Files/Clover-EFI.zip)
-   - 说明：Clover引导文件没有进行深入测试，亮度快捷键为 F11/F12
+   - 说明：Clover引导文件没有进行深入测试
 
 -  键盘触摸板
    - 驱动：[SmartTouchpad](https://github.com/chiccheung/Lenovo-G50-80-macOS/blob/master/Files/SmartTouchpad%20v4.7%20beta%205.zip)
-   - 说明：VoodooPS2 无法使触摸板正常工作，详情 [issues#557](https://github.com/acidanthera/bugtracker/issues/557)，故使用 SmartTouchpad 来驱动键盘触摸板。
+   - 说明：VoodooPS2 无法使触摸板正常工作，详情 [issues#557](https://github.com/acidanthera/bugtracker/issues/557)，故使用 SmartTouchpad 来驱动键盘触摸板
 
 ## 许可证声明
 
