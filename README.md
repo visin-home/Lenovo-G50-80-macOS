@@ -1,4 +1,4 @@
-# Lenovo-G50-80-macOS
+# Lenovo-G50-80&G40-80-macOS
 
 This repository provides OpenCore configuration files for Lenovo-G50-80. 
 
